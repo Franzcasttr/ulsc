@@ -1,0 +1,104 @@
+.navbar {
+  width: 100%;
+  background: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar .logo a {
+  font-size: 24px;
+  color: #57cc99;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-link-container {
+  display: none;
+}
+
+.navbar .get-started {
+  display: none;
+}
+
+.navbar .links {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.navbar .links p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.navbar .links p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar button {
+  width: 8rem;
+  padding: 0.5rem;
+  background: #2fc0fe;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 950px) {
+  .navbar .content {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin: 0 auto;
+  }
+  .navbar .content .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 5rem;
+  }
+  .navbar .content .navbar-link-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar .content .navbar-link-container p {
+    margin-right: 5rem;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+  .navbar .content .navbar-link-container p a {
+    text-decoration: none;
+    color: #000;
+  }
+  .navbar .content .get-started {
+    display: block;
+  }
+  .navbar .content .get-started button {
+    width: 8rem;
+    padding: 0.5rem;
+    background: #2fc0fe;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar .navbar-menu {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

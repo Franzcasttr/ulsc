@@ -1,0 +1,168 @@
+.footer-section {
+  height: 100%;
+  width: 100%;
+  background: #190038;
+  border-radius: 0px 70px 0px 0px;
+
+  .footer-container {
+    margin: 0rem 3rem;
+    color: #fff;
+
+    .contact {
+      display: grid;
+      grid-gap: 1rem;
+      padding-top: 2rem;
+      align-items: center;
+
+      .interested {
+        text-align: center;
+        h1 {
+          font-size: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .lets-talk {
+        text-align: center;
+        padding: 0.5rem;
+        background: #2fc0fe;
+        border-radius: 15px;
+        margin-top: 1rem;
+        cursor: pointer;
+        button {
+          border: none;
+          color: #fff;
+          background: #2fc0fe;
+          font-size: 17px;
+          cursor: pointer;
+        }
+      }
+    }
+    .footer-details {
+      margin-top: 5rem;
+      .address {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        .logo {
+          a {
+            font-size: 24px;
+            color: #57cc99;
+            font-weight: bolder;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+
+        h4 {
+          font-size: 18px;
+          font-weight: normal;
+          margin-bottom: 3rem;
+        }
+        .contact-container {
+          display: flex;
+          justify-content: space-between;
+          line-height: 3rem;
+
+          .about-us {
+            h4 {
+              margin-bottom: 1rem;
+            }
+            a {
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+          .follow-us {
+            h4 {
+              margin-bottom: 1rem;
+            }
+            a {
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      padding: 3rem 0;
+      text-align: center;
+      p {
+        font-size: 14px;
+        font-weight: normal;
+        opacity: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    margin: 0 14rem !important;
+
+    .contact {
+      display: flex !important;
+      justify-content: space-between;
+
+      .interested {
+        margin-right: 5em;
+        h1 {
+          font-size: 48px !important;
+          text-align: left;
+        }
+        p {
+          font-size: 15px !important;
+          text-align: justify;
+          margin-top: 2rem;
+        }
+      }
+      .lets-talk {
+        padding: 1rem !important;
+        width: 20%;
+      }
+    }
+
+    .address {
+      display: flex !important;
+      justify-content: space-between !important;
+
+      .contact-container {
+        .about-us {
+          margin-right: 8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .footer-container {
+    margin: 0 25rem !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  .contact {
+    display: flex !important;
+    justify-content: space-between;
+
+    .interested {
+      margin-right: 5em;
+      h1 {
+        text-align: left;
+      }
+      p {
+        font-size: 15px !important;
+        text-align: left;
+        margin-top: 2rem;
+      }
+    }
+    .lets-talk {
+      padding: 1rem !important;
+      width: 20%;
+    }
+  }
+}

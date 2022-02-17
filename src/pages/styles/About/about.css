@@ -1,0 +1,159 @@
+.section-container {
+  margin-bottom: 7rem;
+}
+
+.section-container .about-cta {
+  text-align: center;
+  display: block;
+}
+
+.section-container .about-cta .left h2 {
+  font-size: 36px;
+  color: #8899a1;
+}
+
+.section-container .about-cta .left p {
+  margin: 1rem 0;
+  font-size: 14px;
+}
+
+.section-container .about-cta .right img {
+  width: 320px;
+  height: 220px;
+}
+
+.section-container .mission-container {
+  width: 100%;
+  height: 100%;
+  background: #57cc99;
+  margin: 5rem auto;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+.section-container .mission-container .mission-vission {
+  margin-bottom: 3rem;
+}
+
+.section-container .mission-container .mission-vission h3 {
+  font-size: 24px;
+}
+
+.section-container .mission-container .mission-vission p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.section-container .mission-container .mission {
+  margin-bottom: 2rem;
+}
+
+.section-container .qoute {
+  text-align: left;
+  font-weight: normal;
+}
+
+.section-container .qoute h3 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .right img {
+    width: 509px !important;
+    height: 316px !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-cta {
+    margin: 2rem 12rem !important;
+  }
+  .mission-container {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .mission-container .mission-vission {
+    margin-right: 4rem;
+  }
+  .mission-container .qoute h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-cta {
+    margin: 4rem 6rem !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-cta .left h2 {
+    font-size: 50px !important;
+    text-align: left;
+  }
+  .about-cta p {
+    text-align: left;
+  }
+  .about-cta .right img {
+    width: 420px !important;
+    height: 316px !important;
+  }
+  .mission-container {
+    padding: 3rem 6rem !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about-cta {
+    margin: 4rem 15rem !important;
+  }
+  .about-cta .left h2 {
+    margin-right: 5rem;
+  }
+  .mission-container {
+    padding: 5rem 15rem !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about-cta {
+    margin: 4rem 25rem !important;
+  }
+  .about-cta .left h2 {
+    font-size: 64px !important;
+    margin-right: 0rem !important;
+  }
+  .about-cta .right img {
+    width: 755px;
+    height: 316px;
+  }
+  .mission-container {
+    padding: 5rem 25rem !important;
+  }
+  .mission-container .mission-vission {
+    margin-right: 6rem !important;
+  }
+  .mission-container .mission-vission h3 {
+    font-size: 36px !important;
+  }
+  .mission-container .mission-vission p {
+    text-align: justify;
+    font-size: 18px !important;
+  }
+  .mission-container .qoute h3 {
+    font-size: 25px !important;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=about.css.map */

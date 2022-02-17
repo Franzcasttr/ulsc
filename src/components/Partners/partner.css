@@ -1,0 +1,36 @@
+.partner-section {
+  margin-top: 3rem;
+}
+
+.partner-section .partner-container {
+  margin: 2rem 3rem;
+}
+
+.partner-section .partner-container .title h1 {
+  color: #57cc99;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.partner-section .partner-container .partners {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  margin: 2rem auto !important;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .partner-section {
+    margin-top: 8rem;
+  }
+  .partners img {
+    width: 230px;
+  }
+  .partners .second-picture .punta {
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=partner.css.map */

@@ -1,0 +1,160 @@
+.modal-section {
+  display: block;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+  z-index: -1;
+
+  .modal-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 1rem auto;
+
+    .close-modal {
+      color: #fe1280;
+      font-size: 3rem;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 3rem auto;
+      color: #57cc99;
+    }
+    form {
+      .form-input {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin: 0 2rem;
+
+        input[type='text'] {
+          height: 50px;
+          outline: none;
+          border: 1px solid #57cc99;
+          border-radius: 2rem;
+          padding: 1rem;
+          font-size: 16px;
+        }
+        input[type='email'] {
+          height: 50px;
+          outline: none;
+          border: 1px solid #57cc99;
+          border-radius: 2rem;
+          padding: 1rem;
+          font-size: 16px;
+        }
+        textarea {
+          height: 162px;
+          outline: none;
+          border: 1px solid #57cc99;
+          border-radius: 2rem;
+          padding: 1rem;
+          font-size: 16px;
+        }
+        button {
+          height: 57px;
+          outline: none;
+          border: none;
+          background: #12b7fe;
+          border-radius: 15px;
+          color: #fff;
+          margin: 0 5rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.show-modal {
+  transform: translate(0);
+  z-index: 999;
+}
+@media screen and (min-width: 550px) {
+  .modal-container {
+    h1 {
+      margin: 3rem 4rem !important;
+    }
+    .form-input {
+      margin: 0 4rem !important;
+
+      button {
+        margin: 0 8rem !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .modal-container {
+    h1 {
+      margin: 3rem 7rem !important;
+    }
+    .form-input {
+      margin: 0 7rem !important;
+
+      button {
+        margin: 0 10rem !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 820px) {
+  .modal-container {
+    overflow: hidden;
+    h1 {
+      margin: 3rem 10rem !important;
+    }
+    .form-input {
+      margin: 0 15rem !important;
+
+      button {
+        margin: 0 4rem !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal-container {
+    overflow: hidden;
+    h1 {
+      margin: 3rem 17rem !important;
+    }
+    .form-input {
+      margin: 0 17rem !important;
+
+      button {
+        margin: 0 3rem !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1300px) {
+  .modal-container {
+    overflow: hidden;
+    h1 {
+      margin: 3rem 20rem !important;
+    }
+    .form-input {
+      margin: 0 20rem !important;
+
+      input[type='text'] {
+        height: 60px !important;
+      }
+      input[type='email'] {
+        height: 60px !important;
+      }
+
+      button {
+        margin: 0 10rem !important;
+      }
+    }
+  }
+}

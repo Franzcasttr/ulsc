@@ -1,0 +1,165 @@
+.modal-section {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: -1;
+}
+
+.modal-section .modal-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.modal-section .modal-container .close-modal {
+  color: #fe1280;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.modal-section .modal-container h1 {
+  font-size: 30px;
+  margin: 3rem auto;
+  color: #57cc99;
+}
+
+.modal-section .modal-container form .form-input {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  margin: 0 2rem;
+}
+
+.modal-section .modal-container form .form-input input[type='text'] {
+  height: 50px;
+  outline: none;
+  border: 1px solid #57cc99;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.modal-section .modal-container form .form-input input[type='email'] {
+  height: 50px;
+  outline: none;
+  border: 1px solid #57cc99;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.modal-section .modal-container form .form-input textarea {
+  height: 162px;
+  outline: none;
+  border: 1px solid #57cc99;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.modal-section .modal-container form .form-input button {
+  height: 57px;
+  outline: none;
+  border: none;
+  background: #12b7fe;
+  border-radius: 15px;
+  color: #fff;
+  margin: 0 5rem;
+  cursor: pointer;
+}
+
+.show-modal {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  z-index: 999;
+}
+
+@media screen and (min-width: 550px) {
+  .modal-container h1 {
+    margin: 3rem 4rem !important;
+  }
+  .modal-container .form-input {
+    margin: 0 4rem !important;
+  }
+  .modal-container .form-input button {
+    margin: 0 8rem !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .modal-container h1 {
+    margin: 3rem 7rem !important;
+  }
+  .modal-container .form-input {
+    margin: 0 7rem !important;
+  }
+  .modal-container .form-input button {
+    margin: 0 10rem !important;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .modal-container {
+    overflow: hidden;
+  }
+  .modal-container h1 {
+    margin: 3rem 10rem !important;
+  }
+  .modal-container .form-input {
+    margin: 0 15rem !important;
+  }
+  .modal-container .form-input button {
+    margin: 0 4rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal-container {
+    overflow: hidden;
+  }
+  .modal-container h1 {
+    margin: 3rem 17rem !important;
+  }
+  .modal-container .form-input {
+    margin: 0 17rem !important;
+  }
+  .modal-container .form-input button {
+    margin: 0 3rem !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .modal-container {
+    overflow: hidden;
+  }
+  .modal-container h1 {
+    margin: 3rem 20rem !important;
+  }
+  .modal-container .form-input {
+    margin: 0 20rem !important;
+  }
+  .modal-container .form-input input[type='text'] {
+    height: 60px !important;
+  }
+  .modal-container .form-input input[type='email'] {
+    height: 60px !important;
+  }
+  .modal-container .form-input button {
+    margin: 0 10rem !important;
+  }
+}
+/*# sourceMappingURL=modal.css.map */

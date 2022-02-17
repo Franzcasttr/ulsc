@@ -1,0 +1,37 @@
+.partner-section {
+  margin-top: 3rem;
+
+  .partner-container {
+    margin: 2rem 3rem;
+    .title {
+      h1 {
+        color: #57cc99;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+    }
+    .partners {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+      margin: 2rem auto !important;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .partner-section {
+    margin-top: 8rem;
+  }
+  .partners {
+    img {
+      width: 230px;
+    }
+    .second-picture {
+      .punta {
+        height: 100px;
+      }
+    }
+  }
+}
